@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zafe IBS, Kondotty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="img/logo/logo-white.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body onload="loaderFunction()" style="margin:0;">
+    
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader ends -->
+
+    <div style="display:none;" id="fullSection" class="animate-bottom"> 
+        <!-- Header -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+                <!-- Hamburger Icon -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="main_nav">
+                
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"> <a class="nav-link font-weight-bold black-text" href="index.html"> HOME </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold black-text dropdown-toggle" href="#" data-toggle="dropdown">  ABOUT US  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#about"> History </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#mission-vission"> Vision and Mission </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#testimonial"> Messages </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="news-events.html"> News and Events </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> High School &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> Facilities</a></li>
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> Faculties</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Higher Secondary &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> Facilities</a></li>
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> Faculties</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> PTA </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="https://ppmhsskottukkara.com/alumni-registration/"> Alumni </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold black-text dropdown-toggle" href="#" data-toggle="dropdown">  ACADEMICS  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Academic Calendar </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Achievements </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Admission &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> High School</a></li>
+                                    <li><a class="dropdown-item font-weight-bold black-text" href=""> Higher Secondary</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Annual Holidays</a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#quick-links"> Quick Links</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold black-text dropdown-toggle" href="#" data-toggle="dropdown">  ACTIVITIES  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Arts </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Sports </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Clubs </a>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"> <a class="nav-link font-weight-bold black-text" href="gallery.html"> GALLERY </a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold black-text dropdown-toggle" href="#" data-toggle="dropdown">  DOWNLOADS  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Circulars and GOs </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Exam Timetables </a></li>
+                                <li><a class="dropdown-item font-weight-bold black-text" href="#"> Forms </a>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"> <a class="nav-link font-weight-bold black-text" href="#contact"> CONTACT US </a> </li>
+
+                    </ul>
+                
+                </div> <!-- navbar-collapse ends -->
+
+                <!-- School Logo -->
+                <a class="navbar-brand mx-3 text-dark logo" href="#"><h1><img src="img/logo/zafe-transparent_conv.png" alt="logo" class="img-fluid w-100"></h1></a>
+
+            </nav>
+        </header>
+        <!-- Header ends -->
+
+        <!--Intro Section -->
+        <section id="intro">
+            <div class="jumbotron text-center bg-blackish">
+                <h1>Zafe International Business School</h1>
+                <p class="lead">Zafe International Business School was established in 2014. It is run by Business Management Educational Association set up for the upliftment of the backward in Educational, Cultural and Social Spheres.</p>
+                <hr class="my-4">
+                <p class="lead">
+                    <a class="btn btn-green btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+        </section>
+        <!-- Intro Section ends -->
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!-- <span class="glyphicon glyphicon-signal logo"></span> -->
+                        <img src="img/logo/logo-white.png" alt="about-logo" class="img-fluid about-logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2 class="mb-4">About Us</h2>
+                        <h5 class="mb-4">Zafe International Business School was established in 2014. It is run by Business Management Muslim Educational Association set up for the upliftment of the backward in Educational, Cultural and Social Spheres.</h5>
+                        <p class="mb-4">Zafe International Business School is situated 2 KMs away from Kondotty and is at stones throw distance away from the National Highway 966 of Kozhikkode-Palakkad. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa veniam vel at dolorum magnam. Tempore, adipisci placeat voluptates optio neque veniam explicabo voluptate veritatis facilis minus fuga doloribus maxime assumenda.</p>
+                        <a class="btn btn-green btn-lg" href="#contact" role="button">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section ends -->
+
+        <!-- photo slider Section -->
+
+        <section id="photos-slider" class="bg-blackish p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active h-400">
+                                    <img class="d-block img-fluid image" src="img/Zafe School 1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="img/Zafe School 2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="img/Zafe School 3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="img/Zafe School 4.jpg" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="img/Zafe School 5.jpg" alt="Fifth slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- photo slider section ends -->
+
+        <!-- Mission-Vission Section -->
+        <section id="mission-vission" class="p-5 bg-grey">
+            <div class="container-fluid bg-blackish text-secondary">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="mb-4 my-3">Our Values</h2>
+                        <p class="mb-4"><strong>MISSION:</strong><br>“To promote value-based education, helping the students to discover their aptitudes and to realize their potential by boosting their self-confidence and creative-thinking skills.To provide an inclusive and harmonious educational atmosphere for all students of all communities and social strata.To inculcate excellent moral and ethical values in adolescents.”</p>
+                        <p><strong>VISION:</strong><br>“Our vision is to empower students to acquire, demonstrate, articulate and value knowledge and skills that will support them, as life-long learners, to participate in and contribute to the global world and practise the core values of the school: respect, tolerance & inclusion, and excellence.”</p>                            
+                    </div>
+                    <div class="col-sm-6 imgCont">
+                        <img src="img/Zafe School 7.jpg" alt="vision-logo" class="img-fluid vision-logo img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mission-Vission Section ends -->
+
+        <!-- Reference Cards Section -->
+        <section id="quick-links" class="p-5 bg-blackish">
+            <h2 class="mx-auto d-table mb-5 text-light">Quick Links</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-info">
+                            <a href="#" class="card-link font font-weight-bold text-dark">Admission Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-success">
+                                <a href="#" class="card-link font font-weight-bold text-dark">Teachers Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-danger">
+                                <a href="#" class="card-link font-weight-bold font text-dark">Students Corner</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-warning">
+                                <a href="#" class="card-link font font-weight-bold  text-dark">Parents Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-secondary">
+                                <a href="#" class="card-link font font-weight-bold  text-dark">Spark</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-light mx-auto" style="width: 100%;">
+                            <div class="card-body bg-primary">
+                                <a href="#" class="card-link font font-weight-bold  text-dark">Circulars</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reference Cards end -->
+
+        <!-- Testimonials Section -->
+        <section id="testimonial" class="bg-blackish">
+            <div class="container text-secondary">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>What people are saying</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Slide Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide 1 -->
+                                <div class="carousel-item active">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/face (1).jpg" alt="Testimonial Slider" class="first"/></div>
+                                        <p><i>Our Zafe International Busines School started in 2014 by handful educational promoters under the banner of Business Management Educational Association to uplift socially, educationally backward communities in Kerala. </i></p>
+                                        <h3><span>-</span> Manager's message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/face (2).jpg" alt="Testimonial Slider" class="second"/></div>
+                                        <p><i>Zafe International Busines School, run by Kondotty has been in the services of Educational, Social and Cultural upliftment of a backward area of the state. Among 9000 students situated in the area. The school is well-known in the State and National Level as the students spread throughout India.</i></p>
+                                        <h3><span>-</span> President's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/face (3).jpg" alt="Testimonial Slider" class="third" /></div>
+                                        <p><i>Zafe International Busines School was established in 2014 run by Business Management Educational Association set for the upliftment of the backward in Educational, Cultural and Social Sphere.Now the school is nearing it’s goal day by day. School is celebrating it’s 9th year.</i></p>
+                                        <h3><span>-</span> Principal's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/face (4).jpg" alt="Testimonial Slider" class="fourth" /></div>
+                                        <p><i>Zafe International Busines School is aimed for the upliftment of educational backward and marginalized community. Best wishes for a successful and flourishing future!</i></p>
+                                        <h3><span>-</span> Chairman's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+     
+                                <!-- Slider pre and next arrow -->
+                                <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section ends -->
+
+        <!-- Carousel Gallery -->
+        <section id="carousel-gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">9<sup>th</sup> Anniversary</h2>
+                        <p class="text-center">The best way to experience our wide collection of sweet memories is to visit our campus and be a part of it.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+                    
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+            
+                <!--First slide-->
+                <div class="carousel-item active">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (1).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (2).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (3).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (4).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.First slide-->
+            
+                <!--Second slide-->
+                <div class="carousel-item">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (5).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (6).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (7).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (8).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.Second slide-->
+            
+                <!--Third slide-->
+                <div class="carousel-item">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (9).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (10).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (11).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="img/slide (12).jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.Third slide-->
+            
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+
+                <div class="controls-top text-center mt-3">
+                    <a class="black-text" href="#multi-iem-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3" style="font-size: 30px;"></i></a>
+                    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3" style="font-size: 30px;"></i></a>
+                </div>
+                <!--/.Controls-->
+            
+            </div>
+            <!--/.Carousel Wrapper-->
+        </section>
+        <!-- Carousel Gallery end-->
+
+        <!-- Counts Section -->
+        <section class="counts-section mb-1">
+            
+            <div class="bg-blackish text-white py-5">
+                <div class="container">
+                    <div class="row">   
+                        <div class="col">
+                            <h2 class="text-center">Head Count</h2>
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">9000</h2>
+                            <h6>Students</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">460</h2>
+                            <h6>Teachers</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">240</h2>
+                            <h6>Other Staffs</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">50</h2>
+                            <h6>Clubs</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- count section ends -->
+
+        <!-- contact section -->
+        <section id="contact" class="bg-blackish my-1 p-5">
+            <div class="container contact-container bg-grey">
+                <div class="d-flex justify-content-center pt-5">
+                    <h2 class="font-weight-bold">Get in touch!</h2>
+                </div>
+                <div class="d-flex justify-content-center">Need an expert? you are more than welcomed to leave your contact info and we will be in touch shortly</div>
+                <div class="d-flex flex-row justify-content-center">
+                    <form class="w-xl-50 w-lg-75" name="submit-to-google-sheet">
+                        <div class="container border">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="name">Name</label>
+                                        <div class="input-field"> <span class="fa fa-user p-2"></span> <input type="text" name="name" required> </div>
+                                    </div>
+                                    <div class="form-group"> <label for="name">Mail</label>
+                                        <div class="input-field"> <span class="fa fa-envelope p-2"></span> <input type="email" name="email" required> </div>
+                                    </div>
+                                    <div class="form-group"> <label for="name">Phone</label>
+                                        <div class="input-field"> <span class="fa fa-mobile p-2"></span> <input type="tel" name="phone" required> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="msg">Message</label>
+                                        <div class="input-field bg-light"> <textarea name="message" id="msg" cols="10" rows="9" class="form-control bg-light" placeholder="Your Message"></textarea> </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-center w-100"> <input type="submit" value="Send Message" class="btn btn-green"> </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- contact section ends -->
+
+        <!-- Footer Section -->
+
+        <footer class="text-center text-lg-start bg-blackish text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+        
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-google text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram text-secondary"></i>
+                </a>
+            </div>
+            <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    VISIT US AT
+                    </h6>
+                    <p>	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Panakkad%20Pookkoya%20Thangal%20Memorial%20Higher%20Secondary%20School&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" aria-label="Panakkad Pookkoya Thangal Memorial Higher Secondary School"></iframe></p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Contact Us
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Kondotty,<br>Malappuram - 673638<br></p>
+                    <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    ppmhss@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +91 483 2711234</p>
+                    <p><i class="fas fa-print me-3"></i> +91 483 2711234</p>
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright © 2023
+            <a class="text-reset fw-bold" href="#"> Zafe International Business School</a>
+
+            </div>
+
+            <a class="text-muted fw-bold" href="mailto:developer.safaf@gmail.com"> developer.safaf@gmail.com <i class="fas fa fa-envelope me-3"></i></a> - zafe ltd <i class="fas fa-gem me-3"></i>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer section ends -->
+
+        <!-- navigation-top-button -->
+        <div class="top-button">
+            <a href="#header" id="topBtn" onclick="topFunction()"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <!-- navigation-top-button ends -->
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- font-icons -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- lightbox-gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <!-- Counts JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
